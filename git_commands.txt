@@ -1,0 +1,27 @@
+ssh -T git@github.com(for check configurations)
+git clone <repo-url>
+git status
+git log 
+git branch <branchname> 
+git checkout <branchname>
+git push --set-upstream origin <branchname>
+git push (regular push)
+git pull (pull latest changes )
+git rebase (head reset)
+git reset(unstage)
+git add <file name>
+git add . ( add all files )
+git commit -m "commit name"88
+generate ssh key 
+ssh-keygen -t rsa -b 4096 -C "vkprajapati072@gmail.com"
+to show your ssh key 
+ cat "go in a folder where you have saved it" 
+git remote add origin < ssh url.git > 
+touch .gitignore
+git config --global user.name "vijay-2005"
+git config --global user.email "vkprajapati072@gmai.com"
+git  init
+git add .
+
+
+git remote add origin git@github.com:Vijay-2005/Tic_Tac_Toe.git
